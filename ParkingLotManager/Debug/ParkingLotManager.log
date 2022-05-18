@@ -1,0 +1,4 @@
+﻿  LotLevels.cpp
+C:\Users\User_name\Desktop\Final Project (ParkingLotManager) Demetrios Vozella\ParkingLotManager\LotLevels.cpp(159,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User_name\Desktop\Final Project (ParkingLotManager) Demetrios Vozella\ParkingLotManager\LotLevels.cpp(162,25): warning C4018: '<': signed/unsigned mismatch
+  ParkingLotManager.vcxproj -> C:\Users\User_name\Desktop\Final Project (ParkingLotManager) Demetrios Vozella\Debug\ParkingLotManager.exe

@@ -32,10 +32,10 @@
  * Requirements: 
  *		Dynamic array:		levels in LimList.
  *		Template class:		LimList.
- *		Searching:			getElement() in LimList using equality operator in TicketedCar.
+ *		Searching:		getElement() in LimList using equality operator in TicketedCar.
  *		STL Container:		carHistory as vector in LotLevels.
- *		Sorting:			outputAllTimeStayed() using selection sort in LotLevels.
- *		Algorithm function: remove_if() in LotLevels.
+ *		Sorting:		outputAllTimeStayed() using selection sort in LotLevels.
+ *		Algorithm function: 	remove_if() in LotLevels.
  */
 
 #include <iostream>

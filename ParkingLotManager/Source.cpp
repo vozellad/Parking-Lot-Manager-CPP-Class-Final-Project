@@ -4,38 +4,38 @@
  * Course: CSI218 (Fall 2021)
  * Date: 12/17/2021
  * Description: Keeps track of a parking lot with multiple levels and a
- *		queue of cars waiting for available space. Has ticket types
- *		with a price and a time amount. Main program simulates 
- *		a car attendant who adds and removes cars and can see current lot,
- *		queue, and record of time stayed all cars. Commands simulating that
- *		are read from file.
+ *	queue of cars waiting for available space. Has ticket types
+ *	with a price and a time amount. Main program simulates 
+ *	a car attendant who adds and removes cars and can see current lot,
+ *	queue, and record of time stayed all cars. Commands simulating that
+ *	are read from file.
  *
- *		Hierarchy of program is TicketedCar -> LimList -> LotLevels -> main
- *		Although a TicketedCar object may be accessed from anywhere.
- *		TicketedCar is critical class. Holds car info (ID and ticket info).
- *			An object represents a car with a ticket.
- *		LimList (Size Limited Container) is a template class
- *			meant to be used as a list with a built in max size decided only
- *			at initialization.
- *			Also searches for object which triggers equality operator in
- *			TicketedCar.
- *		LotLevels (Parking Lot Levels/Floors/Sections/Locations)
- *			has dynamic array and expands functionality of LimList using
- *			TicketedCar as the data type. Uses array to represent multiple
- *			levels of parking lot.
- *			Has a vector to store history of cars.
- *			(Cars that have came and gone.)
- *			Can output all cars with the time spent in the lot.
- *			Sorts cars by most time spent before outputing
- *			with the help of algorithm functions.
+ *	Hierarchy of program is TicketedCar -> LimList -> LotLevels -> main
+ *	Although a TicketedCar object may be accessed from anywhere.
+ *	TicketedCar is critical class. Holds car info (ID and ticket info).
+ *		An object represents a car with a ticket.
+ *	LimList (Size Limited Container) is a template class
+ *		meant to be used as a list with a built in max size decided only
+ *		at initialization.
+ *		Also searches for object which triggers equality operator in
+ *		TicketedCar.
+ *	LotLevels (Parking Lot Levels/Floors/Sections/Locations)
+ *		has dynamic array and expands functionality of LimList using
+ *		TicketedCar as the data type. Uses array to represent multiple
+ *		levels of parking lot.
+ *		Has a vector to store history of cars.
+ *		(Cars that have came and gone.)
+ *		Can output all cars with the time spent in the lot.
+ *		Sorts cars by most time spent before outputing
+ *		with the help of algorithm functions.
  * 
  * Requirements: 
- *		Dynamic array:		levels in LimList.
- *		Template class:		LimList.
- *		Searching:		getElement() in LimList using equality operator in TicketedCar.
- *		STL Container:		carHistory as vector in LotLevels.
- *		Sorting:		outputAllTimeStayed() using selection sort in LotLevels.
- *		Algorithm function: 	remove_if() in LotLevels.
+ *	Dynamic array:		levels in LimList.
+ *	Template class:		LimList.
+ *	Searching:		getElement() in LimList using equality operator in TicketedCar.
+ *	STL Container:		carHistory as vector in LotLevels.
+ *	Sorting:		outputAllTimeStayed() using selection sort in LotLevels.
+ *	Algorithm function: 	remove_if() in LotLevels.
  */
 
 #include <iostream>
